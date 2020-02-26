@@ -1,0 +1,222 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	color: #4c4c4c;
+	background-color: #eceef1;
+}
+
+i {
+	display: inline-block;
+}
+
+a {
+	color: #0077c5;
+	text-decoration: none;
+}
+
+button {
+	color: white;
+	background-color: #0077c5;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.lock-icon {
+	width: 0.8em;
+	height: 1em;
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+header {
+	width: 100%;
+	height: 56px;
+	font-size: 12px;
+	padding: 10px 30px;
+}
+
+.sign-in {
+	width: 200px;
+	text-align: center;
+	float: right;
+	margin-top: 5px;
+}
+
+header button {
+	float: right;
+	height: 34px;
+	font-size: 1.125em;
+	padding: 0 20px;
+}
+
+.intuit-logos {
+	text-align: center;
+}
+
+.intuit-logo {
+	width: 118px;
+	height: 35px;
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png);
+}
+
+.logos {
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	margin-right: 4px;
+	position: relative;
+}
+
+.mint-logo {	
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
+}
+
+.mint-text {
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-text-0fa36974.svg) no-repeat;
+	width: 37px;
+	height: 20px;
+}
+
+.quickbooks-logo {
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjMmNhMDFjIi8+PHBhdGggZD0iTS01OTEuNSA5OTYuNWMwIDUuNCA0LjQgOS44IDkuOCA5LjhoMS40di0zLjZoLTEuNGMtMy40IDAtNi4yLTIuOC02LjItNi4yczIuOC02LjIgNi4yLTYuMmgzLjR2MTguOGMwIDIgMS42IDMuNiAzLjYgMy42di0yNi4yaC03Yy01LjYuMi05LjggNC42LTkuOCAxMHptMjYuNC05LjhoLTEuNHYzLjZoMS40YzMuNCAwIDYuMiAyLjggNi4yIDYuMnMtMi44IDYuMi02LjIgNi4yaC0zLjR2LTE4LjhjMC0yLTEuNi0zLjYtMy42LTMuNnYyNi4yaDdjNS40IDAgOS44LTQuNCA5LjgtOS44LS4yLTUuNi00LjQtMTAtOS44LTEweiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) no-repeat;
+}
+
+.quickbooks-text {
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg) no-repeat;
+	width: 98px;
+	height: 22px;
+}
+
+.turbotax-logo {
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg) no-repeat;
+}
+
+.turbotax-text {
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/turbo-tax-text-9bc025c5.svg) no-repeat;
+	width: 74px;
+	height: 22px;
+}
+
+form {
+	width: 380px;
+	height: 670px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 2px;
+	border: 1px solid #c7c7c7;
+}
+
+form header,
+form main {
+	padding: 30px;
+}
+
+form header {
+	padding-bottom: 72px;
+}
+
+form header {
+	text-align: center;
+}
+
+form header #title {
+	font-size: 24px;
+}
+
+form header #subtitle {
+	font-size: 14px;
+}
+
+form header a {
+	font-size: 12px;
+}
+
+label {
+	color: #404040;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+input {
+	width: 100%;
+	height: 34px;
+	padding: 5px;
+	border: 1px solid #c1c5c8;
+	border-radius: 3px;
+	margin-bottom: 40px;
+}
+
+#phone {
+	margin-bottom: 0;
+}
+
+#text-tel {
+	color: #444;
+	font-size: 10px;
+	font-style: normal;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#password {
+	margin-bottom: 5px;
+	background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/lock-left-grey@3x-a1ab5bd1.png) no-repeat 0 50%/21px 21px;
+	background-position-x: 95%;
+}
+
+form main button {
+	border: #0077c5;
+	width: 100%;
+	height: 44px;
+	font-size: 1.125em;
+	margin: 30px 0 40px;
+}
+
+form main p {
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	color: #757575;
+}
+
+form footer {
+	color: #8d9096;
+	background-color: #eceef1;
+	margin-top: 20px;
+	padding: 16px;
+	font-size: 10px;
+	text-align: center;
+}
+
+form footer p {
+	width: auto;
+}
+
+footer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+footer li,
+footer p {
+	display: inline-block;
+	font-size: 12px;
+}
+
+footer li a {
+	color: #505050;
+}
+
+footer li a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	width: 700px;
+}
